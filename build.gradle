@@ -63,4 +63,8 @@ dependencies {
     testImplementation 'org.assertj:assertj-core:1.7.0'
 }
 
+test{
+    systemProperty 'properties', System.getProperty('properties')
+}
+
 gradle.startParameter.continueOnFailure = true
