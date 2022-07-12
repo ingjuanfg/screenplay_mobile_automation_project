@@ -17,11 +17,6 @@ import static net.serenitybdd.screenplay.actors.OnStage.*;
 
 public class LoginSwaglabsStepDefinition {
 
-    @Before
-    public void prepareStage() {
-        OnStage.setTheStage(new OnlineCast());
-    }
-
     @When("{word} types his credentials on SwagLabs app")
     public void actorLoginIntoApp(String actor) {
         theActorCalled(actor).attemptsTo(Login.inSwaglabs());

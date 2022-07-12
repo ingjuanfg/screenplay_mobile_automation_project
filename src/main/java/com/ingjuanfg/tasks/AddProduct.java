@@ -6,8 +6,8 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static com.ingjuanfg.userinterface.ProductPage.BTN_ADD_TO_CART;
-import static com.ingjuanfg.userinterface.ProductPage.LBL_PRODUCT;
+import static com.ingjuanfg.userinterface.ProductsPage.BTN_ADD_TO_CART;
+import static com.ingjuanfg.userinterface.ProductsPage.LBL_PRODUCT;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class AddProduct implements Task {

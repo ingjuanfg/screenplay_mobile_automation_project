@@ -6,5 +6,5 @@ import net.serenitybdd.screenplay.targets.Target;
 import static net.serenitybdd.screenplay.targets.Target.the;
 
 public class CartShoppingPage {
-    public static final Target BTN_CART = the("Carrito").located(MobileBy.xpath("//android.view.ViewGroup[@contenthgh-desc='test-Cart']/android.view.ViewGroup/android.widget.TextView"));
+    public static final Target BTN_CART = the("Carrito").located(MobileBy.xpath("//android.view.ViewGroup[@content-desc='test-Cart']/android.view.ViewGroup/android.widget.TextView"));
 }
