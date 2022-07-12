@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import static com.ingjuanfg.userinterface.LoginPage.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class Login implements Task {
+public class LoginTask implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -19,7 +19,7 @@ public class Login implements Task {
         );
     }
 
-    public static Login swaglabs(){
-        return instrumented(Login.class);
+    public static LoginTask swaglabs(){
+        return instrumented(LoginTask.class);
     }
 }
